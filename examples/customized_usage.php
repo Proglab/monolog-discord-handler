@@ -3,7 +3,7 @@ require '../vendor/autoload.php';
 
 $log = new Monolog\Logger('name');
 
-$handler = new DiscordHandler\DiscordHandler(
+$handler = new Proglab\DiscordHandler(
     'https://discordapp.com/api/webhooks/xxx/yyy',
     'name',
     'subname',
@@ -17,7 +17,7 @@ $handler->getConfig()
     ->setTemplate("{datetime} {name}: {message}");
 
 // or you can create another Config instance and replace it:
-$otherConfig = new DiscordHandler\Config();
+$otherConfig = new Proglab\Config();
 $otherConfig->setWebHooks([
     'https://discordapp.com/api/webhooks/xxx/yyy',
     'https://discordapp.com/api/webhooks/xxx/yyy'

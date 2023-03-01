@@ -3,7 +3,7 @@ require '../vendor/autoload.php';
 
 $log = new Monolog\Logger('name');
 
-$handler = new DiscordHandler\DiscordHandler(
+$handler = new Proglab\DiscordHandler(
     'https://discordapp.com/api/webhooks/xxx/yyy'
 );
 

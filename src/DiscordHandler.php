@@ -1,6 +1,6 @@
 <?php
 
-namespace DiscordHandler;
+namespace Proglab;
 
 use GuzzleHttp\Client;
 use GuzzleHttp\Exception\GuzzleException;

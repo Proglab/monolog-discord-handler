@@ -1,5 +1,5 @@
 {
-  "name": "lefuturiste/monolog-discord-handler",
+  "name": "proglab/monolog-discord-handler",
   "description": "A simple monolog handler for support Discord webhooks",
   "type": "library",
   "keywords": [
@@ -19,14 +19,13 @@
       "name": "Matthieu Bessat",
       "email": "contact@lefuturiste.fr",
       "homepage": "https://lefuturiste.fr"
+    },
+    {
+      "name": "Fabric Gyre",
+      "email": "info@proglab.com",
+      "homepage": "https://proglab.com"
     }
   ],
-  "support": {
-    "email": "contact@lefuturiste.fr",
-    "issues": "https://github.com/lefuturiste/monolog-discord-handler/issues",
-    "source": "https://github.com/lefuturiste/monolog-discord-handler",
-    "docs": "https://github.com/lefuturiste/monolog-discord-handler/blob/master/README.md"  
-  },
   "scripts": {
     "test": "vendor/bin/phpunit tests"
   },
@@ -41,12 +40,12 @@
   },
   "autoload": {
     "psr-4": {
-      "DiscordHandler\\": "src"
+      "Proglab\\": "src"
     }
   },
   "autoload-dev": {
     "psr-4": {
-      "DiscordHandler\\Tests\\": "tests"
+      "Proglab\\Tests\\": "tests"
     }
   }
 }

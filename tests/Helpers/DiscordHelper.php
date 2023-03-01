@@ -1,6 +1,6 @@
 <?php
 
-namespace DiscordHandler\Tests\Helpers;
+namespace Proglab\Tests\Helpers;
 
 use GuzzleHttp\Client;
 

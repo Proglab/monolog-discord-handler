@@ -1,6 +1,6 @@
 <?php
 
-namespace DiscordHandler\Tests;
+namespace Proglab\Tests;
 
 use PHPUnit\Framework\TestCase;
 use GuzzleHttp\Client;
